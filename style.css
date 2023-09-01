@@ -1,0 +1,47 @@
+/* CSS Code */
+/* style.css */
+.face {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 60%;
+    position: relative;
+}
+.eye1{
+height:25px;
+width:25px;
+border-radius:25px;
+background-color:black;
+position:absolute;
+margin-top:50px;
+margin-left:50px;
+}
+.eye2{
+height:25px;
+width:25px;
+border-radius:25px;
+background-color:black;
+position:absolute;
+margin-top:50px;
+margin-left:125px;
+}
+
+.nose {
+    width: 20px;
+    height: 60px;
+    background-color: rgb(224, 171, 24);
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    transform: rotate(180deg);
+}
+
+.mouth {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px 20px 60px 60px;
+    position: absolute;
+    top: 150px;
+    left: 55px;
+}
